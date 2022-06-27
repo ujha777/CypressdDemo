@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_module\\.bin\\cypress run --spec cypress\\integration\\1-getting-started\todo.spec.js  --config pageLoadTimeout=100000",
+    "test": "node_module\\.bin\\cypress run --spec cypress\\integration\\1-getting-started\\todo.spec.js  --config pageLoadTimeout=100000",
     "runtest":"npm run test --"
   },
   "author": "",
